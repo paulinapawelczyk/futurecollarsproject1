@@ -144,6 +144,7 @@ html {
     padding-right: var(--paddingLeftRight);
     padding-left: var(--paddingLeftRight);
     padding-top: var(--paddingTopBottom);
+    padding-bottom: var(--paddingTopBottom);
     background-color: rgb(241, 241, 241);
     color: #152D41;
 }
@@ -240,8 +241,19 @@ html {
     flex-wrap: wrap;
     transition: 0.5s linear;
     cursor: pointer;
+    position: relative;
 }
 
 .box:hover {
     transform: scale(1.05);
+}
+
+.new {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: -7.5px;
+    left: -7.5px;
+    background-color: #E07A64;
 }
