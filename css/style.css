@@ -8,6 +8,7 @@
 html {
     font-family: Roboto, sans-serif;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -73,8 +74,66 @@ html {
     cursor: not-allowed;
 }
 
-.header {
+.landing-page {
     flex-basis: 100%;
-    height: 100vh;
-    background-color: darkkhaki;
+    height: calc(100vh - 50px);
+    background-image: url(https://pixabay.com/get/g0a85d51ed2decd6a48dba996395dc54f91e0979b8d411a8f66c57cb39b7232ab6e55df1e7187d18eb795c1ea8f7229468662ca9a1edbd57db19d7fff82b2310d_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    display: flex;
+}
+
+.cover-img {
+    flex-basis: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: var(--paddingLeftRight);
+
+}
+
+.about-texts {
+    flex-basis: 100;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50%;
+}
+
+.about-texts h1 {
+    flex-basis: 70%;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+}
+
+.about-texts p {
+    flex-basis: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.btn-landing {
+    flex-basis: 20%;
+    font-size: 18px;
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 3px solid #FFF;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+    transition: 1s linear;
+}
+
+.btn-landing:hover {
+    background-color: #FFF;
+    color: #000;
 }
