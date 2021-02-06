@@ -161,22 +161,39 @@ html {
     margin: 10px 0 30px 0;
 }
 
-.employee-photo {
+.employee .employee-photo {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-color: greenyellow;
+    background-image: url(/images/employer.jpg);
+    background-size: cover;
+    background-position: center;
     flex-shrink: 0;
+}
+
+.employee:nth-of-type(even) .employee-photo {
+    order: 2;
 }
 
 .employee-data {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+
+.employee:nth-of-type(odd) .employee-data {
+    text-align: left;
+    padding-right: 0;
     padding-left: 50px;
+}
+
+.employee:nth-of-type(even) .employee-data {
+    text-align: right;
+    padding-right: 50px;
+    padding-left: 0;
 }
 
 .employee-data h2 {
     font-weight: bold;
-
 }
