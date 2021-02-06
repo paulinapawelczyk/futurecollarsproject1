@@ -75,7 +75,7 @@ html {
 .landing-page {
     flex-basis: 100%;
     height: calc(100vh - 50px);
-    background-image: url(/images/landscape.jpg);
+    background-image: url(../images/landscape.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -166,7 +166,7 @@ html {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-image: url(/images/employer.jpg);
+    background-image: url(../images/employer.jpg);
     background-size: cover;
     background-position: center;
     flex-shrink: 0;
