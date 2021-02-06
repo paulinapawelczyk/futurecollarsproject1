@@ -15,8 +15,6 @@ html {
     display: flex;
     flex-wrap: wrap;
     width: 960px;
-    height: 200vh;
-    /*tymczasowo zeby zobaczyc jak wyglada uklad strony*/
     margin: 0 auto;
 }
 
