@@ -257,3 +257,30 @@ html {
     left: -7.5px;
     background-color: #E07A64;
 }
+
+/* footer */
+.footer {
+    flex-basis: 100%;
+    height: 71px;
+    background-color: #4E4E4E;
+    padding-right: var(--paddingLeftRight);
+    padding-left: var(--paddingLeftRight);
+    color: #FFF;
+}
+
+.footer-menu {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+}
+
+.footer-menu:first-child {
+    font-weight: bold;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #FFF;
+}
