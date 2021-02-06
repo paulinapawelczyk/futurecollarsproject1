@@ -197,3 +197,51 @@ html {
 .employee-data h2 {
     font-weight: bold;
 }
+
+/* offer */
+.offer {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    padding-right: var(--paddingLeftRight);
+    padding-left: var(--paddingLeftRight);
+    padding-top: var(--paddingTopBottom);
+    background-color: #405D78;
+}
+
+.offer h1 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFF;
+}
+
+.offer-container {
+    flex-basis: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-around;
+    padding: 50px 100px 20px 100px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.box {
+    flex-basis: 130px;
+    min-height: 130px;
+    padding: 10px 10px;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: 0.5s linear;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
