@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-    --paddingTopBottom: 10px;
+    --paddingTopBottom: 30px;
     --paddingLeftRight: 90px;
 }
 
@@ -30,8 +30,6 @@ html {
     font-size: 18px;
     background-color: #4E4E4E;
     color: #FFF;
-
-
 }
 
 .my-company {
@@ -77,7 +75,7 @@ html {
 .landing-page {
     flex-basis: 100%;
     height: calc(100vh - 50px);
-    background-image: url(https://pixabay.com/get/g0a85d51ed2decd6a48dba996395dc54f91e0979b8d411a8f66c57cb39b7232ab6e55df1e7187d18eb795c1ea8f7229468662ca9a1edbd57db19d7fff82b2310d_1280.jpg);
+    background-image: url(/images/landscape.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -136,4 +134,49 @@ html {
 .btn-landing:hover {
     background-color: #FFF;
     color: #000;
+}
+
+/* about section */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: var(--paddingLeftRight);
+    padding-left: var(--paddingLeftRight);
+    padding-top: var(--paddingTopBottom);
+    background-color: rgb(241, 241, 241);
+    color: #152D41;
+}
+
+.about h1 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.employee {
+    display: flex;
+    margin: 10px 0 30px 0;
+}
+
+.employee-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    flex-shrink: 0;
+}
+
+.employee-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 50px;
+}
+
+.employee-data h2 {
+    font-weight: bold;
+
 }
