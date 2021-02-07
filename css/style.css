@@ -92,6 +92,8 @@ html {
     justify-content: flex-start;
     flex-wrap: wrap;
     padding-left: var(--paddingLeftRight);
+    padding-right: var(--paddingLeftRight);
+
 
 }
 
@@ -143,8 +145,6 @@ html {
     align-items: center;
     padding-right: var(--paddingLeftRight);
     padding-left: var(--paddingLeftRight);
-    padding-top: var(--paddingTopBottom);
-    padding-bottom: var(--paddingTopBottom);
     background-color: rgb(241, 241, 241);
     color: #152D41;
 }
@@ -154,7 +154,8 @@ html {
     font-weight: bold;
     line-height: 42px;
     text-align: center;
-    margin-bottom: 30px;
+    padding-bottom: var(--paddingTopBottom);
+    padding-top: var(--paddingTopBottom);
 }
 
 .employee {
@@ -205,7 +206,6 @@ html {
     flex-wrap: wrap;
     padding-right: var(--paddingLeftRight);
     padding-left: var(--paddingLeftRight);
-    padding-top: var(--paddingTopBottom);
     background-color: #405D78;
 }
 
@@ -214,6 +214,8 @@ html {
     font-size: 36px;
     line-height: 42px;
     color: #FFF;
+    padding-top: var(--paddingTopBottom);
+
 }
 
 .offer-container {
