@@ -240,8 +240,8 @@ html {
 }
 
 .box {
-    flex-basis: 140px;
-    min-height: 140px;
+    flex-basis: 130px;
+    min-height: 130px;
     margin: 15px 15px;
     padding: 40px 40px;
     background-color: rgb(241, 241, 241);
