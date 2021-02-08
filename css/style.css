@@ -11,10 +11,16 @@ html {
     scroll-behavior: smooth;
 }
 
+/* klasy ogolne*/
+.page-content {
+    width: 960px;
+    margin: 0 auto;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 960px;
+    width: 100vw;
     margin: 0 auto;
 }
 
@@ -98,7 +104,6 @@ html {
 }
 
 .about-texts {
-    flex-basis: 100;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -121,7 +126,7 @@ html {
 }
 
 .btn-landing {
-    flex-basis: 20%;
+    flex-basis: 10%;
     font-size: 18px;
     padding: 10px 25px;
     background-color: transparent;
@@ -153,14 +158,17 @@ html {
     font-size: 36px;
     font-weight: bold;
     line-height: 42px;
-    text-align: center;
+    text-align: left;
     padding-bottom: var(--paddingTopBottom);
     padding-top: var(--paddingTopBottom);
 }
 
 .employee {
     display: flex;
-    margin: 10px 0 30px 0;
+}
+
+.employee:nth-of-type(even) {
+    padding-bottom: var(--paddingTopBottom);
 }
 
 .employee .employee-photo {
@@ -219,22 +227,23 @@ html {
 }
 
 .offer-container {
-    flex-basis: 100%;
+    box-sizing: border-box;
     min-height: 50vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
-    align-content: space-around;
+    align-content: space-between;
     padding: 50px 100px 20px 100px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 }
 
 .box {
-    flex-basis: 130px;
-    min-height: 130px;
-    padding: 10px 10px;
+    flex-basis: 140px;
+    min-height: 140px;
+    margin: 15px 15px;
+    padding: 40px 40px;
     background-color: rgb(241, 241, 241);
     text-align: center;
     display: flex;
