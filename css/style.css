@@ -13,7 +13,7 @@ html {
 
 /* klasy ogolne*/
 main {
-    width: 100%;
+    max-width: 100%;
 }
 
 .page-content {
