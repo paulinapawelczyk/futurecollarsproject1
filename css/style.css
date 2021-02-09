@@ -12,6 +12,10 @@ html {
 }
 
 /* klasy ogolne*/
+main {
+    max-width: 100%;
+}
+
 .page-content {
     width: 960px;
     margin: 0 auto;
@@ -27,6 +31,7 @@ html {
 /* nawigacja */
 .navigation {
     flex-basis: 100%;
+    max-width: 100%;
     display: flex;
     position: relative;
     align-items: center;
@@ -42,8 +47,6 @@ html {
     font-weight: bold;
     line-height: 21px;
     cursor: context-menu;
-
-
 }
 
 .menu {
@@ -80,6 +83,7 @@ html {
 /* landing page */
 .landing-page {
     flex-basis: 100%;
+    max-width: 100%;
     height: calc(100vh - 50px);
     background-image: url(../images/landscape.jpg);
     background-repeat: no-repeat;
@@ -146,12 +150,14 @@ html {
 /* about section */
 .about {
     display: flex;
+    max-width: 100%;
     flex-wrap: wrap;
     align-items: center;
     padding-right: var(--paddingLeftRight);
     padding-left: var(--paddingLeftRight);
     background-color: rgb(241, 241, 241);
     color: #152D41;
+
 }
 
 .about h1 {
@@ -210,6 +216,7 @@ html {
 
 /* offer */
 .offer {
+    max-width: 100%;
     flex-basis: 100%;
     flex-wrap: wrap;
     padding-right: var(--paddingLeftRight);
@@ -223,11 +230,14 @@ html {
     line-height: 42px;
     color: #FFF;
     padding-top: var(--paddingTopBottom);
+    max-width: 100%;
+
 
 }
 
 .offer-container {
     box-sizing: border-box;
+    max-width: 100%;
     min-height: 50vh;
     display: flex;
     flex-wrap: wrap;
